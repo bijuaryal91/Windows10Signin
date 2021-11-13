@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body
+{
+    background-image: url('../images/wallpaper.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+label
+{
+    font-size:32px;
+    font-family: 'Poppins', sans-serif;
+    color: #E0DFDF;
+    margin-bottom: 12px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 86vh;
+    flex-direction: column;
+}
+.container .logo
+{
+    background-image: url(../images/me.JPG);
+    height: 170px;
+    width: 170px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.container .password
+{
+    width: 250px;
+    display: inline-flex;
+}
+.container .password input
+{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    font-family: "Poppins",serif;
+    font-size: 14px;
+}
+.container .password input::placeholder
+{
+    font-size: 12px;
+}
+.container .password .button button
+{
+    background-color: #444444;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+
+}
+.container .password .button i
+{
+    color: white;
+}
+.container .passwordWrong
+{
+    text-align: center;
+}
+.container .active
+{
+    display: none;
+}
+.container .passwordWrong p
+{
+    color: #E0DFDF;
+    font-family: "Poppins",serif;
+    font-size: 13px;
+}
+.container .passwordWrong button
+{
+    background-color:#55504B ;
+    border-color: white;
+    height: 35px;
+    color: white;
+    font-family: "Poppins",serif;
+    width: 110px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.extras
+{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.extras img
+{
+    margin:10px;
+    cursor: pointer;
+}
